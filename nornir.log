@@ -1,0 +1,696 @@
+2022-01-30 15:26:57,072 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 15:36:01,018 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 15:36:28,894 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 15:36:38,318 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 15:48:16,955 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 15:48:46,482 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 15:48:46,495 - nornir.core.task -    ERROR -      start() - Host 'localhost': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 6, in my_task
+    for x in task.hosts:
+AttributeError: 'Task' object has no attribute 'hosts'
+
+2022-01-30 15:48:46,495 - nornir.core.task -    ERROR -      start() - Host 'khade': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 6, in my_task
+    for x in task.hosts:
+AttributeError: 'Task' object has no attribute 'hosts'
+
+2022-01-30 15:48:46,495 - nornir.core.task -    ERROR -      start() - Host 'norzel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 6, in my_task
+    for x in task.hosts:
+AttributeError: 'Task' object has no attribute 'hosts'
+
+2022-01-30 15:48:46,495 - nornir.core.task -    ERROR -      start() - Host 'hazel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 6, in my_task
+    for x in task.hosts:
+AttributeError: 'Task' object has no attribute 'hosts'
+
+2022-01-30 15:54:40,743 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 15:54:40,744 - nornir.core.task -    ERROR -      start() - Host 'localhost': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 7, in my_task
+    print(task.hosts)
+AttributeError: 'Task' object has no attribute 'hosts'
+
+2022-01-30 15:54:40,745 - nornir.core.task -    ERROR -      start() - Host 'khade': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 7, in my_task
+    print(task.hosts)
+AttributeError: 'Task' object has no attribute 'hosts'
+
+2022-01-30 15:54:40,745 - nornir.core.task -    ERROR -      start() - Host 'norzel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 7, in my_task
+    print(task.hosts)
+AttributeError: 'Task' object has no attribute 'hosts'
+
+2022-01-30 15:54:40,745 - nornir.core.task -    ERROR -      start() - Host 'hazel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 7, in my_task
+    print(task.hosts)
+AttributeError: 'Task' object has no attribute 'hosts'
+
+2022-01-30 15:57:27,818 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 15:57:38,824 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:00:16,805 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:00:23,651 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:00:32,804 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:01:22,052 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:03:07,360 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:03:21,552 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:04:07,362 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:04:48,062 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:04:48,062 - nornir.core.task -    ERROR -      start() - Host 'localhost': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 7, in my_task
+    for x in task:
+TypeError: 'Task' object is not iterable
+
+2022-01-30 16:04:48,063 - nornir.core.task -    ERROR -      start() - Host 'khade': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 7, in my_task
+    for x in task:
+TypeError: 'Task' object is not iterable
+
+2022-01-30 16:04:48,063 - nornir.core.task -    ERROR -      start() - Host 'norzel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 7, in my_task
+    for x in task:
+TypeError: 'Task' object is not iterable
+
+2022-01-30 16:04:48,063 - nornir.core.task -    ERROR -      start() - Host 'hazel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 7, in my_task
+    for x in task:
+TypeError: 'Task' object is not iterable
+
+2022-01-30 16:04:56,570 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:04:56,571 - nornir.core.task -    ERROR -      start() - Host 'localhost': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 7, in my_task
+    for x in task:
+TypeError: 'Task' object is not iterable
+
+2022-01-30 16:04:56,571 - nornir.core.task -    ERROR -      start() - Host 'khade': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 7, in my_task
+    for x in task:
+TypeError: 'Task' object is not iterable
+
+2022-01-30 16:04:56,572 - nornir.core.task -    ERROR -      start() - Host 'norzel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 7, in my_task
+    for x in task:
+TypeError: 'Task' object is not iterable
+
+2022-01-30 16:04:56,572 - nornir.core.task -    ERROR -      start() - Host 'hazel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 7, in my_task
+    for x in task:
+TypeError: 'Task' object is not iterable
+
+2022-01-30 16:05:55,151 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:05:55,152 - nornir.core.task -    ERROR -      start() - Host 'localhost': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 7, in my_task
+    for x in task:
+TypeError: 'Task' object is not iterable
+
+2022-01-30 16:05:55,153 - nornir.core.task -    ERROR -      start() - Host 'khade': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 7, in my_task
+    for x in task:
+TypeError: 'Task' object is not iterable
+
+2022-01-30 16:05:55,153 - nornir.core.task -    ERROR -      start() - Host 'norzel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 7, in my_task
+    for x in task:
+TypeError: 'Task' object is not iterable
+
+2022-01-30 16:05:55,153 - nornir.core.task -    ERROR -      start() - Host 'hazel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 7, in my_task
+    for x in task:
+TypeError: 'Task' object is not iterable
+
+2022-01-30 16:06:06,067 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:08:04,307 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:08:22,041 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:08:22,043 - nornir.core.task -    ERROR -      start() - Host 'localhost': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 10, in my_task
+    print (task.host.group)
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\inventory.py", line 368, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'group'
+
+2022-01-30 16:08:22,043 - nornir.core.task -    ERROR -      start() - Host 'khade': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 10, in my_task
+    print (task.host.group)
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\inventory.py", line 368, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'group'
+
+2022-01-30 16:08:22,044 - nornir.core.task -    ERROR -      start() - Host 'norzel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 10, in my_task
+    print (task.host.group)
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\inventory.py", line 368, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'group'
+
+2022-01-30 16:08:22,044 - nornir.core.task -    ERROR -      start() - Host 'hazel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 10, in my_task
+    print (task.host.group)
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\inventory.py", line 368, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'group'
+
+2022-01-30 16:08:31,990 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:10:27,749 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:10:27,750 - nornir.core.task -    ERROR -      start() - Host 'localhost': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 17, in my_task
+    print (x.hostname)
+AttributeError: 'str' object has no attribute 'hostname'
+
+2022-01-30 16:10:27,750 - nornir.core.task -    ERROR -      start() - Host 'khade': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 17, in my_task
+    print (x.hostname)
+AttributeError: 'str' object has no attribute 'hostname'
+
+2022-01-30 16:10:27,750 - nornir.core.task -    ERROR -      start() - Host 'norzel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 17, in my_task
+    print (x.hostname)
+AttributeError: 'str' object has no attribute 'hostname'
+
+2022-01-30 16:10:27,750 - nornir.core.task -    ERROR -      start() - Host 'hazel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 17, in my_task
+    print (x.hostname)
+AttributeError: 'str' object has no attribute 'hostname'
+
+2022-01-30 16:12:11,415 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:12:53,927 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:13:22,813 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:13:37,948 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:13:37,949 - nornir.core.task -    ERROR -      start() - Host 'localhost': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 16, in my_task
+    print (nr.inventory.host.hostname)
+AttributeError: 'Inventory' object has no attribute 'host'
+
+2022-01-30 16:13:37,949 - nornir.core.task -    ERROR -      start() - Host 'khade': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 16, in my_task
+    print (nr.inventory.host.hostname)
+AttributeError: 'Inventory' object has no attribute 'host'
+
+2022-01-30 16:13:37,949 - nornir.core.task -    ERROR -      start() - Host 'norzel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 16, in my_task
+    print (nr.inventory.host.hostname)
+AttributeError: 'Inventory' object has no attribute 'host'
+
+2022-01-30 16:13:37,949 - nornir.core.task -    ERROR -      start() - Host 'hazel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 16, in my_task
+    print (nr.inventory.host.hostname)
+AttributeError: 'Inventory' object has no attribute 'host'
+
+2022-01-30 16:14:16,883 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:14:35,663 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:15:06,178 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:15:21,900 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:15:21,901 - nornir.core.task -    ERROR -      start() - Host 'localhost': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 16, in my_task
+    print (nr.inventory.hostname)
+AttributeError: 'Inventory' object has no attribute 'hostname'
+
+2022-01-30 16:15:21,901 - nornir.core.task -    ERROR -      start() - Host 'khade': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 16, in my_task
+    print (nr.inventory.hostname)
+AttributeError: 'Inventory' object has no attribute 'hostname'
+
+2022-01-30 16:15:21,901 - nornir.core.task -    ERROR -      start() - Host 'norzel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 16, in my_task
+    print (nr.inventory.hostname)
+AttributeError: 'Inventory' object has no attribute 'hostname'
+
+2022-01-30 16:15:21,901 - nornir.core.task -    ERROR -      start() - Host 'hazel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 16, in my_task
+    print (nr.inventory.hostname)
+AttributeError: 'Inventory' object has no attribute 'hostname'
+
+2022-01-30 16:17:13,657 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:17:43,700 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:17:43,703 - nornir.core.task -    ERROR -      start() - Host 'localhost': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 16, in my_task
+    print (nr.inventory.hosts['localhost'][1])
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\inventory.py", line 350, in __getitem__
+    return self.data[item]
+KeyError: 1
+
+2022-01-30 16:17:43,703 - nornir.core.task -    ERROR -      start() - Host 'khade': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 16, in my_task
+    print (nr.inventory.hosts['localhost'][1])
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\inventory.py", line 350, in __getitem__
+    return self.data[item]
+KeyError: 1
+
+2022-01-30 16:17:43,704 - nornir.core.task -    ERROR -      start() - Host 'norzel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 16, in my_task
+    print (nr.inventory.hosts['localhost'][1])
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\inventory.py", line 350, in __getitem__
+    return self.data[item]
+KeyError: 1
+
+2022-01-30 16:17:43,704 - nornir.core.task -    ERROR -      start() - Host 'hazel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 16, in my_task
+    print (nr.inventory.hosts['localhost'][1])
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\inventory.py", line 350, in __getitem__
+    return self.data[item]
+KeyError: 1
+
+2022-01-30 16:17:52,670 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:17:52,671 - nornir.core.task -    ERROR -      start() - Host 'localhost': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 16, in my_task
+    print (nr.inventory.hosts['localhost'][0])
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\inventory.py", line 350, in __getitem__
+    return self.data[item]
+KeyError: 0
+
+2022-01-30 16:17:52,671 - nornir.core.task -    ERROR -      start() - Host 'khade': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 16, in my_task
+    print (nr.inventory.hosts['localhost'][0])
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\inventory.py", line 350, in __getitem__
+    return self.data[item]
+KeyError: 0
+
+2022-01-30 16:17:52,672 - nornir.core.task -    ERROR -      start() - Host 'norzel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 16, in my_task
+    print (nr.inventory.hosts['localhost'][0])
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\inventory.py", line 350, in __getitem__
+    return self.data[item]
+KeyError: 0
+
+2022-01-30 16:17:52,672 - nornir.core.task -    ERROR -      start() - Host 'hazel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 16, in my_task
+    print (nr.inventory.hosts['localhost'][0])
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\inventory.py", line 350, in __getitem__
+    return self.data[item]
+KeyError: 0
+
+2022-01-30 16:18:00,500 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:18:00,501 - nornir.core.task -    ERROR -      start() - Host 'localhost': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 16, in my_task
+    print ((nr.inventory.hosts['localhost'])[0])
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\inventory.py", line 350, in __getitem__
+    return self.data[item]
+KeyError: 0
+
+2022-01-30 16:18:00,502 - nornir.core.task -    ERROR -      start() - Host 'khade': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 16, in my_task
+    print ((nr.inventory.hosts['localhost'])[0])
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\inventory.py", line 350, in __getitem__
+    return self.data[item]
+KeyError: 0
+
+2022-01-30 16:18:00,502 - nornir.core.task -    ERROR -      start() - Host 'norzel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 16, in my_task
+    print ((nr.inventory.hosts['localhost'])[0])
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\inventory.py", line 350, in __getitem__
+    return self.data[item]
+KeyError: 0
+
+2022-01-30 16:18:00,502 - nornir.core.task -    ERROR -      start() - Host 'hazel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 16, in my_task
+    print ((nr.inventory.hosts['localhost'])[0])
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\inventory.py", line 350, in __getitem__
+    return self.data[item]
+KeyError: 0
+
+2022-01-30 16:18:11,647 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:18:11,648 - nornir.core.task -    ERROR -      start() - Host 'localhost': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 16, in my_task
+    print ((nr.inventory.hosts['localhost'])[2])
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\inventory.py", line 350, in __getitem__
+    return self.data[item]
+KeyError: 2
+
+2022-01-30 16:18:11,648 - nornir.core.task -    ERROR -      start() - Host 'khade': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 16, in my_task
+    print ((nr.inventory.hosts['localhost'])[2])
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\inventory.py", line 350, in __getitem__
+    return self.data[item]
+KeyError: 2
+
+2022-01-30 16:18:11,648 - nornir.core.task -    ERROR -      start() - Host 'norzel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 16, in my_task
+    print ((nr.inventory.hosts['localhost'])[2])
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\inventory.py", line 350, in __getitem__
+    return self.data[item]
+KeyError: 2
+
+2022-01-30 16:18:11,649 - nornir.core.task -    ERROR -      start() - Host 'hazel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 16, in my_task
+    print ((nr.inventory.hosts['localhost'])[2])
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\inventory.py", line 350, in __getitem__
+    return self.data[item]
+KeyError: 2
+
+2022-01-30 16:18:33,036 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:18:50,628 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:20:15,673 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:20:26,053 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:20:42,588 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:52:14,282 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:52:14,284 - nornir.core.task -    ERROR -      start() - Host 'localhost': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 23, in my_task
+    print (x.hostname)
+AttributeError: 'str' object has no attribute 'hostname'
+
+2022-01-30 16:52:14,284 - nornir.core.task -    ERROR -      start() - Host 'khade': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 23, in my_task
+    print (x.hostname)
+AttributeError: 'str' object has no attribute 'hostname'
+
+2022-01-30 16:52:14,285 - nornir.core.task -    ERROR -      start() - Host 'norzel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 23, in my_task
+    print (x.hostname)
+AttributeError: 'str' object has no attribute 'hostname'
+
+2022-01-30 16:52:14,286 - nornir.core.task -    ERROR -      start() - Host 'hazel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 23, in my_task
+    print (x.hostname)
+AttributeError: 'str' object has no attribute 'hostname'
+
+2022-01-30 16:52:28,884 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:52:28,885 - nornir.core.task -    ERROR -      start() - Host 'localhost': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 23, in my_task
+    print (x.hostname)
+AttributeError: 'str' object has no attribute 'hostname'
+
+2022-01-30 16:52:28,886 - nornir.core.task -    ERROR -      start() - Host 'khade': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 23, in my_task
+    print (x.hostname)
+AttributeError: 'str' object has no attribute 'hostname'
+
+2022-01-30 16:52:28,886 - nornir.core.task -    ERROR -      start() - Host 'norzel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 23, in my_task
+    print (x.hostname)
+AttributeError: 'str' object has no attribute 'hostname'
+
+2022-01-30 16:52:28,888 - nornir.core.task -    ERROR -      start() - Host 'hazel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 23, in my_task
+    print (x.hostname)
+AttributeError: 'str' object has no attribute 'hostname'
+
+2022-01-30 16:52:54,627 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 16:52:54,628 - nornir.core.task -    ERROR -      start() - Host 'localhost': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 23, in my_task
+    print (x.hostname)
+AttributeError: 'str' object has no attribute 'hostname'
+
+2022-01-30 16:52:54,629 - nornir.core.task -    ERROR -      start() - Host 'khade': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 23, in my_task
+    print (x.hostname)
+AttributeError: 'str' object has no attribute 'hostname'
+
+2022-01-30 16:52:54,629 - nornir.core.task -    ERROR -      start() - Host 'norzel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 23, in my_task
+    print (x.hostname)
+AttributeError: 'str' object has no attribute 'hostname'
+
+2022-01-30 16:52:54,629 - nornir.core.task -    ERROR -      start() - Host 'hazel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\execise2.py", line 23, in my_task
+    print (x.hostname)
+AttributeError: 'str' object has no attribute 'hostname'
+
+2022-01-30 17:15:24,212 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 17:16:11,304 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 17:20:07,655 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 17:33:28,723 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 17:36:34,417 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 17:37:11,639 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 17:37:28,931 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 17:37:28,932 - nornir.core.task -    ERROR -      start() - Host 'localhost': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print(task.host.data.dns1)
+AttributeError: 'dict' object has no attribute 'dns1'
+
+2022-01-30 17:37:28,933 - nornir.core.task -    ERROR -      start() - Host 'khade': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print(task.host.data.dns1)
+AttributeError: 'dict' object has no attribute 'dns1'
+
+2022-01-30 17:37:28,934 - nornir.core.task -    ERROR -      start() - Host 'norzel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print(task.host.data.dns1)
+AttributeError: 'dict' object has no attribute 'dns1'
+
+2022-01-30 17:37:28,935 - nornir.core.task -    ERROR -      start() - Host 'hazel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print(task.host.data.dns1)
+AttributeError: 'dict' object has no attribute 'dns1'
+
+2022-01-30 17:37:44,108 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 17:37:56,527 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 17:37:56,530 - nornir.core.task -    ERROR -      start() - Host 'khade': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print(task.host.data['dns1'])
+KeyError: 'dns1'
+
+2022-01-30 17:37:56,531 - nornir.core.task -    ERROR -      start() - Host 'norzel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print(task.host.data['dns1'])
+KeyError: 'dns1'
+
+2022-01-30 17:37:56,531 - nornir.core.task -    ERROR -      start() - Host 'hazel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print(task.host.data['dns1'])
+KeyError: 'dns1'
+
+2022-01-30 17:39:24,413 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 17:39:24,415 - nornir.core.task -    ERROR -      start() - Host 'localhost': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print(task.host.data[0])
+KeyError: 0
+
+2022-01-30 17:39:24,416 - nornir.core.task -    ERROR -      start() - Host 'khade': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print(task.host.data[0])
+KeyError: 0
+
+2022-01-30 17:39:24,416 - nornir.core.task -    ERROR -      start() - Host 'norzel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print(task.host.data[0])
+KeyError: 0
+
+2022-01-30 17:39:24,416 - nornir.core.task -    ERROR -      start() - Host 'hazel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print(task.host.data[0])
+KeyError: 0
+
+2022-01-30 17:39:32,147 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts

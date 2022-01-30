@@ -1,10 +1,20 @@
 ---
 localhost:
-  hostname: localhost
-localhost1:
-  hostname: localhost
-localhost2:
-  hostname: localhost
-localhost3:
-  hostname: localhost
+  hostname: james
+  groups:
+    - ios
+  data:
+    dns1: 8.8.8.8
+khade:
+  hostname: greg
+  groups:
+    - ios
+norzel:
+  hostname: oscar
+  groups: 
+    - ios
+hazel:
+  hostname: rosio
+  groups:
+    - ios
 
