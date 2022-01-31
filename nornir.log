@@ -694,3 +694,286 @@ Traceback (most recent call last):
 KeyError: 0
 
 2022-01-30 17:39:32,147 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 17:48:11,756 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 17:49:33,371 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 18:16:28,504 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 18:16:28,507 - nornir.core.task -    ERROR -      start() - Host 'khade': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print("DNS1: " +task.host.data['dns1'])
+KeyError: 'dns1'
+
+2022-01-30 18:16:28,508 - nornir.core.task -    ERROR -      start() - Host 'norzel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print("DNS1: " +task.host.data['dns1'])
+KeyError: 'dns1'
+
+2022-01-30 18:16:28,509 - nornir.core.task -    ERROR -      start() - Host 'hazel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print("DNS1: " +task.host.data['dns1'])
+KeyError: 'dns1'
+
+2022-01-30 18:17:27,834 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 18:17:27,838 - nornir.core.task -    ERROR -      start() - Host 'khade': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print("DNS1: " + task.host.data['dns1'])
+KeyError: 'dns1'
+
+2022-01-30 18:17:27,839 - nornir.core.task -    ERROR -      start() - Host 'norzel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print("DNS1: " + task.host.data['dns1'])
+KeyError: 'dns1'
+
+2022-01-30 18:17:27,840 - nornir.core.task -    ERROR -      start() - Host 'hazel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print("DNS1: " + task.host.data['dns1'])
+KeyError: 'dns1'
+
+2022-01-30 18:18:03,032 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 18:18:03,034 - nornir.core.task -    ERROR -      start() - Host 'localhost': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 11, in my_task
+    print("DNS2: " + task.host.data['dns2'])
+KeyError: 'dns2'
+
+2022-01-30 18:18:03,036 - nornir.core.task -    ERROR -      start() - Host 'khade': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print("DNS1: " + task.host.data['dns1'])
+KeyError: 'dns1'
+
+2022-01-30 18:18:03,036 - nornir.core.task -    ERROR -      start() - Host 'norzel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print("DNS1: " + task.host.data['dns1'])
+KeyError: 'dns1'
+
+2022-01-30 18:18:03,037 - nornir.core.task -    ERROR -      start() - Host 'hazel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print("DNS1: " + task.host.data['dns1'])
+KeyError: 'dns1'
+
+2022-01-30 18:24:55,510 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 18:24:55,512 - nornir.core.task -    ERROR -      start() - Host 'localhost': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 11, in my_task
+    print("DNS2: " + task.host.data['dns2'])
+KeyError: 'dns2'
+
+2022-01-30 18:24:55,512 - nornir.core.task -    ERROR -      start() - Host 'khade': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print("DNS1: " + task.host.data['dns1'])
+KeyError: 'dns1'
+
+2022-01-30 18:24:55,513 - nornir.core.task -    ERROR -      start() - Host 'norzel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print("DNS1: " + task.host.data['dns1'])
+KeyError: 'dns1'
+
+2022-01-30 18:24:55,515 - nornir.core.task -    ERROR -      start() - Host 'hazel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print("DNS1: " + task.host.data['dns1'])
+KeyError: 'dns1'
+
+2022-01-30 18:25:25,826 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 18:25:25,829 - nornir.core.task -    ERROR -      start() - Host 'localhost': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 11, in my_task
+    print("DNS2: " + task.host.data['dns2'])
+KeyError: 'dns2'
+
+2022-01-30 18:25:25,830 - nornir.core.task -    ERROR -      start() - Host 'khade': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print("DNS1: " + task.host.data['dns1'])
+KeyError: 'dns1'
+
+2022-01-30 18:25:25,830 - nornir.core.task -    ERROR -      start() - Host 'norzel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print("DNS1: " + task.host.data['dns1'])
+KeyError: 'dns1'
+
+2022-01-30 18:25:25,831 - nornir.core.task -    ERROR -      start() - Host 'hazel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print("DNS1: " + task.host.data['dns1'])
+KeyError: 'dns1'
+
+2022-01-30 18:25:44,187 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 18:25:44,188 - nornir.core.task -    ERROR -      start() - Host 'localhost': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 11, in my_task
+    print("DNS2: " + task.host.data['dns2'])
+KeyError: 'dns2'
+
+2022-01-30 18:25:44,189 - nornir.core.task -    ERROR -      start() - Host 'khade': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print("DNS1: " + task.host.data['dns1'])
+KeyError: 'dns1'
+
+2022-01-30 18:25:44,191 - nornir.core.task -    ERROR -      start() - Host 'norzel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print("DNS1: " + task.host.data['dns1'])
+KeyError: 'dns1'
+
+2022-01-30 18:25:44,191 - nornir.core.task -    ERROR -      start() - Host 'hazel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print("DNS1: " + task.host.data['dns1'])
+KeyError: 'dns1'
+
+2022-01-30 18:25:57,780 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 18:25:57,782 - nornir.core.task -    ERROR -      start() - Host 'localhost': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 11, in my_task
+    print("DNS2: " + task.host.data['dns2'])
+KeyError: 'dns2'
+
+2022-01-30 18:25:57,783 - nornir.core.task -    ERROR -      start() - Host 'khade': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print("DNS1: " + task.host.data['dns1'])
+KeyError: 'dns1'
+
+2022-01-30 18:25:57,784 - nornir.core.task -    ERROR -      start() - Host 'norzel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print("DNS1: " + task.host.data['dns1'])
+KeyError: 'dns1'
+
+2022-01-30 18:25:57,785 - nornir.core.task -    ERROR -      start() - Host 'hazel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print("DNS1: " + task.host.data['dns1'])
+KeyError: 'dns1'
+
+2022-01-30 18:26:07,553 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 18:26:07,555 - nornir.core.task -    ERROR -      start() - Host 'localhost': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 11, in my_task
+    print("DNS2: " + task.host.data['dns2'])
+KeyError: 'dns2'
+
+2022-01-30 18:26:07,556 - nornir.core.task -    ERROR -      start() - Host 'khade': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print("DNS1: " + task.host.data['dns1'])
+KeyError: 'dns1'
+
+2022-01-30 18:26:07,557 - nornir.core.task -    ERROR -      start() - Host 'norzel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print("DNS1: " + task.host.data['dns1'])
+KeyError: 'dns1'
+
+2022-01-30 18:26:07,558 - nornir.core.task -    ERROR -      start() - Host 'hazel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print("DNS1: " + task.host.data['dns1'])
+KeyError: 'dns1'
+
+2022-01-30 18:26:42,841 -  nornir.core -     INFO -        run() - Running task 'my_task' with args {} on 4 hosts
+2022-01-30 18:26:42,844 - nornir.core.task -    ERROR -      start() - Host 'localhost': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 11, in my_task
+    print("DNS2: " + task.host.data['dns2'])
+KeyError: 'dns2'
+
+2022-01-30 18:26:42,845 - nornir.core.task -    ERROR -      start() - Host 'khade': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print("DNS1: " + task.host.data['dns1'])
+KeyError: 'dns1'
+
+2022-01-30 18:26:42,846 - nornir.core.task -    ERROR -      start() - Host 'norzel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print("DNS1: " + task.host.data['dns1'])
+KeyError: 'dns1'
+
+2022-01-30 18:26:42,846 - nornir.core.task -    ERROR -      start() - Host 'hazel': task 'my_task' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\lucidity\AppData\Local\Programs\Python\Python39\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\lucidity\napalm_practice\nornir\exercise4.py", line 10, in my_task
+    print("DNS1: " + task.host.data['dns1'])
+KeyError: 'dns1'
+
