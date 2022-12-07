@@ -2,7 +2,7 @@ import napalm
 
 def main():
     driver_ios = napalm.get_network_driver("ios")
-    ios_router = driver_ios(hostname = "10.227.32.1", username = "kpurcell", password = "Cliet32balc!")
+    ios_router = driver_ios(hostname = "10.227.32.1", username = "kpurcell", password = "liketoknow")
 
     print ("Connecting to IOS Router...")
     ios_router.open()
